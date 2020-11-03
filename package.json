@@ -1,0 +1,45 @@
+{
+  "_from": "replaceman",
+  "_id": "replaceman@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-HVCWCaJKg2S1NcfVzY1YuIKk/r8=",
+  "_location": "/replaceman",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "replaceman",
+    "name": "replaceman",
+    "escapedName": "replaceman",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/replaceman/-/replaceman-1.0.1.tgz",
+  "_shasum": "1d509609a24a8364b535c7d5cd8d58b882a4febf",
+  "_spec": "replaceman",
+  "_where": "/Users/xijin_liu/project/data/airflow/teams/china_growth/projects/wom",
+  "author": {
+    "name": "ssnau"
+  },
+  "bin": {
+    "replaceman": "bin/replaceman"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "commander": "^2.8.1",
+    "glob": "^5.0.14",
+    "is-dir": "^1.0.0",
+    "lodash": "^3.10.1",
+    "safecall": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "replaceman ------",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "replaceman",
+  "version": "1.1.0"
+}
