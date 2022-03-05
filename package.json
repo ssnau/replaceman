@@ -20,7 +20,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "standard"
+    "test": "standard --fix"
   },
   "repository": {
     "type": "git",
