@@ -15,7 +15,7 @@
   "license": "MIT",
   "main": "index.js",
   "name": "replaceman",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "directories": {
     "lib": "lib"
   },
