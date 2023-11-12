@@ -1,4 +1,4 @@
-/* global describe, it, beforeEach, afterEach */
+/* global describe, it, beforeEach */
 const fs = require('fs');
 const path = require('path');
 const { strictEqual } = require('assert');

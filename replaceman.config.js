@@ -9,7 +9,8 @@ module.exports = {
     return /md$/.test(file);
   },
   /**
-   * replace content with returned value
+   * replace content with returned value.
+   * if you don't want to do content replace, just comment out this method.
    * */
   replace: function (content) {
     // replace logic
