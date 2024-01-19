@@ -7,17 +7,11 @@ program
     .option('-c, --create', 'create replaceman.config.js sample file')
     .parse(process.argv);
 
-var names = program.args;
-if (!names.length) {
-    names = ['replaceman.config.js'];
-}
-
-var name = names[0]; // 无视多余的参数
+var command = program.args[0];
 var cwd = process.cwd();
 component({
-    filename: name,
     dry: program.dry,
-    create: program.create,
+    create: program.create || command === "init",
     cwd: cwd
 }).catch(function(e) {
   console.log('Error!', e, e.stack);
