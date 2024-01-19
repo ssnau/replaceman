@@ -1,5 +1,5 @@
-// simply comment out the method you don't want to 
-// avoid it from running.
+// simply comment out the method you don't want
+// to avoid it from running.
 module.exports = {
   /**
     * Filter files.
